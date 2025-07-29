@@ -116,17 +116,7 @@ export default function Portfolio() {
                     className={`absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-300 ${hoveredProject === index ? "opacity-100" : "opacity-0"}`}
                   >
                     <div className="absolute bottom-4 left-4 right-4">
-                      <Button
-                        size="sm"
-                        className="bg-blue-500 hover:bg-blue-600 text-white rounded-full text-xs md:text-sm"
-                        onClick={(e) => {
-                          e.stopPropagation()
-                          trackButtonClick("View Project", "Portfolio")
-                        }}
-                      >
-                        View Project
-                        <ExternalLink className="ml-2 w-3 h-3 md:w-4 md:h-4" />
-                      </Button>
+                      {/* Removed View Project button */}
                     </div>
                   </div>
                 </div>
@@ -154,16 +144,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="text-center">
-            <Button
-              size="lg"
-              className="bg-black hover:bg-gray-800 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
-              onClick={() => trackButtonClick("View All Projects", "Portfolio")}
-            >
-              View All Projects
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-          </div>
+          {/* Removed View All Projects button */}
         </div>
       </div>
     </section>
