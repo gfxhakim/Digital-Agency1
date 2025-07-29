@@ -168,7 +168,7 @@ export default function Contact() {
       <div className="border-t border-gray-800 py-8">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 mb-4 md:mb-0">© 2024 Digital Agency. All rights reserved.</div>
+            <div className="text-gray-400 mb-4 md:mb-0">© 2024 Digital Agency by Abdelhakim. All rights reserved.</div>
 
             <div className="flex items-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
