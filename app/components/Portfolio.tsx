@@ -34,7 +34,7 @@ export default function Portfolio() {
       category: "UI/UX Design & Development",
       description:
         "Complete redesign of a B2B SaaS platform, resulting in 40% increase in user engagement and 25% boost in conversions.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/AAA.jpeg",
       tags: ["UI/UX", "React", "Dashboard", "SaaS"],
     },
     {
